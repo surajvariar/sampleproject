@@ -1,0 +1,31 @@
+{
+  "name": "sampleproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc -p .",
+    "test": "nyc --reporter=lcov --reporter=text-lcov mocha ./tests/_suite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajvariar/sampleproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajvariar/sampleproject/issues"
+  },
+  "homepage": "https://github.com/surajvariar/sampleproject#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^3.2.0",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.31",
+    "@types/q": "^1.5.5",
+    "sync-request": "^6.1.0"
+  }
+}
